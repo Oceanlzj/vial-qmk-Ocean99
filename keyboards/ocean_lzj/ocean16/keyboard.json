@@ -1,0 +1,181 @@
+{
+    "keyboard_name": "Ocean16",
+    "keyboard": "Ocean16",
+    "manufacturer": "Ocean",
+    "maintainer": "Ocean_lzj",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x2016",
+        "device_version": "0.0.3"
+    },
+    "development_board": "promicro",
+    "processor": "atmega32u4",
+    "width": 4,
+    "height": 4,
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": [
+            "B6",
+            "D7",
+            "C6",
+            "F4"
+        ],
+        "rows": [
+            "D4",
+            "D0",
+            "D1",
+            "B5"
+        ]
+    },
+    "debouncing": 5,
+    "features": {
+        "backlight": false,
+        "bootmagic": true,
+        "command": true,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "rgblight": false
+    },
+    "qmk": {
+        "locking": {
+            "enabled": true,
+            "resync": true
+        }
+    },
+    "layouts": {
+        "LAYOUT_default16": {
+            "layout": [
+                {
+                    "matrix": [
+                        0,
+                        0
+                    ],
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        0,
+                        1
+                    ],
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        0,
+                        2
+                    ],
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        0,
+                        3
+                    ],
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "matrix": [
+                        1,
+                        0
+                    ],
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        1,
+                        1
+                    ],
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        1,
+                        2
+                    ],
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        1,
+                        3
+                    ],
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "matrix": [
+                        2,
+                        0
+                    ],
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        2,
+                        1
+                    ],
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        2,
+                        2
+                    ],
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        2,
+                        3
+                    ],
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "matrix": [
+                        3,
+                        0
+                    ],
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        3,
+                        1
+                    ],
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        3,
+                        2
+                    ],
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        3,
+                        3
+                    ],
+                    "x": 3,
+                    "y": 3
+                }
+            ]
+        }
+    }
+}
